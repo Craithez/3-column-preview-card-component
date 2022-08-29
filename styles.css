@@ -46,7 +46,6 @@ h1 {
 p {
 
     margin-top: 2rem;
-    margin-bottom: 6rem;
     color: var(--clr--light-grey-color);
     text-align: left;
 }
@@ -54,14 +53,16 @@ p {
 button {
     background-color: var(--clr--light-grey-color);
     padding: 1rem 3rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-decoration: none;
     text-shadow: 0px 1px 0px #020202;
     cursor: pointer;
-    border: 1px solid var(--clr--light-grey-color);
+    border: 3px solid var(--clr--light-grey-color);
     display: inline-block;
     border-radius: 1.75rem;
     text-align: left;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
 }
 
 /* Attribution */
@@ -106,6 +107,11 @@ button {
     background-color: var(--clr--primary-bright-orange-color);
 }
 
+.stats0 .learn-more-button {
+    color: var(--clr--primary-bright-orange-color);
+    transition: ease-in-out 0.3s;
+}
+
 .stats1 {
     width: 100%;
     height: 100%;
@@ -114,10 +120,40 @@ button {
     background-color: var(--clr--primary-cyan-color);
 }
 
+.stats1 .learn-more-button {
+    color: var(--clr--primary-cyan-color);
+    transition: ease-in-out 0.3s;
+}
+
 .stats2 {
     width: 100%;
     height: 100%;
     padding: 3rem;
     text-align: center;
     background-color: var(--clr--primary-dark-cyan-color);
+}
+
+.stats2 .learn-more-button {
+    color: var(--clr--primary-dark-cyan-color);
+    transition: ease-in-out 0.3s;
+}
+
+/* Button hoover effects */
+
+.stats0 .learn-more-button:hover {
+    background-color: var(--clr--primary-bright-orange-color);
+    color: var(--clr--light-grey-color);
+    transition: ease-in-out 0.3s;
+}
+
+.stats1 .learn-more-button:hover {
+    background-color: var(--clr--primary-cyan-color);
+    color: var(--clr--light-grey-color);
+    transition: ease-in-out 0.3s;
+}
+
+.stats2 .learn-more-button:hover {
+    background-color: var(--clr--primary-dark-cyan-color);
+    color: var(--clr--light-grey-color);
+    transition: ease-in-out 0.3s;
 }
