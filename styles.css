@@ -1,0 +1,123 @@
+/* import fonts Lexend Deca 400 and Big Shoulders Display 700 */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+
+    /* Primary colors */
+    /* Bright Orange - Card 1/3 */
+    --clr--primary-bright-orange-color: hsl(31, 77%, 52%);
+    /* Cyan - Card 2/3 */
+    --clr--primary-cyan-color: hsl(184, 100%, 22%);
+    /* Dark cyan - Card 3/3 */
+    --clr--primary-dark-cyan-color: hsl(179, 100%, 13%);
+
+    
+    /* Paragraphs */
+    --clr--white-transparent-color: hsla(0, 0%, 100%, 0.75);
+    /* Background, headings, buttons */
+    --clr--light-grey-color: hsl(0, 0%, 95%);
+}
+
+
+/* Defaults */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 400;
+}
+
+body {
+    background-color: var(--clr--white-transparent-color);
+    height: 100vh;
+    width: 100%;
+    font-size: 0.938rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: var(--clr--light-grey-color);
+    text-align: left;
+}
+
+p {
+
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    color: var(--clr--light-grey-color);
+    text-align: left;
+}
+
+button {
+    background-color: var(--clr--light-grey-color);
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #020202;
+    cursor: pointer;
+    border: 1px solid var(--clr--light-grey-color);
+    display: inline-block;
+    border-radius: 1.75rem;
+    text-align: left;
+}
+
+/* Attribution */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Car card */
+
+.container {
+    width: 60%;
+    height: 40%;
+    padding: 0.938rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem; /* Change */
+    align-self: center;
+    margin:  20vh auto;
+}
+
+.car-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem; /* Change */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats0 {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    text-align: center;
+    background-color: var(--clr--primary-bright-orange-color);
+}
+
+.stats1 {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    text-align: center;
+    background-color: var(--clr--primary-cyan-color);
+}
+
+.stats2 {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    text-align: center;
+    background-color: var(--clr--primary-dark-cyan-color);
+}
