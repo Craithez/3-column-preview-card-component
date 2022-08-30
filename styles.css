@@ -52,17 +52,17 @@ p {
 
 button {
     background-color: var(--clr--light-grey-color);
-    padding: 1rem 3rem;
+    padding: 0.3em 1.9em;
+    border-radius: 2em;
     font-size: 1.3rem;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #020202;
     cursor: pointer;
     border: 3px solid var(--clr--light-grey-color);
     display: inline-block;
-    border-radius: 1.75rem;
-    text-align: left;
+    text-align: center;
     font-family: 'Big Shoulders Display';
     font-weight: 700;
+    align-self: baseline;
 }
 
 /* Attribution */
@@ -105,6 +105,10 @@ button {
     padding: 3rem;
     text-align: center;
     background-color: var(--clr--primary-bright-orange-color);
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    display: flex;
+    flex-direction: column;
 }
 
 .stats0 .learn-more-button {
@@ -118,6 +122,8 @@ button {
     padding: 3rem;
     text-align: center;
     background-color: var(--clr--primary-cyan-color);
+    display: flex;
+    flex-direction: column;
 }
 
 .stats1 .learn-more-button {
@@ -131,6 +137,10 @@ button {
     padding: 3rem;
     text-align: center;
     background-color: var(--clr--primary-dark-cyan-color);
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    display: flex;
+    flex-direction: column;
 }
 
 .stats2 .learn-more-button {
