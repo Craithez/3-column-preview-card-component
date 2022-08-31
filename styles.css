@@ -11,7 +11,7 @@
     /* Dark cyan - Card 3/3 */
     --clr--primary-dark-cyan-color: hsl(179, 100%, 13%);
 
-    
+
     /* Paragraphs */
     --clr--white-transparent-color: hsla(0, 0%, 100%, 0.75);
     /* Background, headings, buttons */
@@ -30,9 +30,10 @@
 
 body {
     background-color: var(--clr--white-transparent-color);
-    height: 100vh;
-    width: 100%;
+    height: 77.5rem;
+    width: 103, 125rem;
     font-size: 0.938rem;
+    margin: auto;
 }
 
 h1 {
@@ -80,19 +81,21 @@ button {
 
 .container {
     width: 60%;
-    height: 40%;
+    height: 30%;
     padding: 0.938rem;
     display: flex;
     justify-content: center;
-    border-radius: 1rem; /* Change */
+    border-radius: 1rem;
+    /* Change */
     align-self: center;
-    margin:  20vh auto;
+    margin: 20vh auto;
 }
 
 .car-card {
     width: 100%;
     height: 100%;
-    border-radius: 1rem; /* Change */
+    border-radius: 1rem;
+    /* Change */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -100,7 +103,7 @@ button {
 }
 
 .stats0 {
-    width: 100%;
+    width: 34.375rem;
     height: 100%;
     padding: 3rem;
     text-align: center;
@@ -121,7 +124,7 @@ button {
 }
 
 .stats1 {
-    width: 100%;
+    width: 34.375rem;
     height: 100%;
     padding: 3rem;
     text-align: center;
@@ -140,7 +143,7 @@ button {
 }
 
 .stats2 {
-    width: 100%;
+    width: 34.375rem;
     height: 100%;
     padding: 3rem;
     text-align: center;
@@ -184,6 +187,58 @@ button {
     width: 25%;
 }
 
-@media (max-witdh: 48rem) {
-    
+@media (max-width: 48rem) {
+
+    body {
+        width: 21.25rem;
+        padding: initial;
+        margin: auto;
+    }
+
+    .car-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    p {
+        width: 15.625rem;
+    }
+
+    .stats0 {
+        width: 16.625rem;
+        background: var(--clr--primary-bright-orange-color);
+        height: 28.125rem;
+        padding: 3.125rem 3.125rem 3.125rem 3.125rem;
+        border-radius: 0.938rem 0.625rem 0rem 0rem;
+    }
+
+    .stats1 {
+        width: 16.625rem;
+        background: var(--clr--primary-cyan-color);
+        height: 28.125rem;
+        padding: 3.125rem 3.125rem 3.125rem 3.125rem;
+    }
+
+    .stats2 {
+        width: 16.625rem;
+        ;
+        background: var(--clr--primary-dark-cyan-color);
+        height: 28.125rem;
+        padding: 3.125rem 3.125rem 3.125rem 3.125rem;
+        border-radius: 0.938rem 0.625rem 0rem 0rem;
+    }
+
+    h1 {
+        width: 17.25rem;
+    }
+
+    .learn-more-button {
+        width: 19rem;
+        align-self: center;
+    }
+
+    .attribution {
+        visibility: hidden;
+	}
 }
