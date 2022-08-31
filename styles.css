@@ -195,6 +195,10 @@ button {
         margin: auto;
     }
 
+    .container {
+        height: 60%;
+    }
+
     .car-card {
         display: flex;
         flex-direction: column;
@@ -208,25 +212,24 @@ button {
     .stats0 {
         width: 16.625rem;
         background: var(--clr--primary-bright-orange-color);
-        height: 28.125rem;
+        height: 17.25rem;
         padding: 3.125rem 3.125rem 3.125rem 3.125rem;
-        border-radius: 0.938rem 0.625rem 0rem 0rem;
+        border-radius: 0.938rem 0.938rem 0rem 0rem;
     }
 
     .stats1 {
         width: 16.625rem;
         background: var(--clr--primary-cyan-color);
-        height: 28.125rem;
+        height: 17.25rem;
         padding: 3.125rem 3.125rem 3.125rem 3.125rem;
     }
 
     .stats2 {
         width: 16.625rem;
-        ;
         background: var(--clr--primary-dark-cyan-color);
-        height: 28.125rem;
+        height: 17.25rem;
         padding: 3.125rem 3.125rem 3.125rem 3.125rem;
-        border-radius: 0.938rem 0.625rem 0rem 0rem;
+        border-radius: 0rem 0rem 0.938rem 0.938rem;
     }
 
     h1 {
