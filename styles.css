@@ -111,6 +111,10 @@ button {
     flex-direction: column;
 }
 
+.stats0 p {
+    height: 28.125rem;
+}
+
 .stats0 .learn-more-button {
     color: var(--clr--primary-bright-orange-color);
     transition: ease-in-out 0.3s;
@@ -124,6 +128,10 @@ button {
     background-color: var(--clr--primary-cyan-color);
     display: flex;
     flex-direction: column;
+}
+
+.stats1 p {
+    height: 28.125rem;
 }
 
 .stats1 .learn-more-button {
@@ -141,6 +149,10 @@ button {
     border-bottom-right-radius: 0.3em;
     display: flex;
     flex-direction: column;
+}
+
+.stats2 p {
+    height: 28.125rem;
 }
 
 .stats2 .learn-more-button {
@@ -166,4 +178,12 @@ button {
     background-color: var(--clr--primary-dark-cyan-color);
     color: var(--clr--light-grey-color);
     transition: ease-in-out 0.3s;
+}
+
+.icon {
+    width: 25%;
+}
+
+@media (max-witdh: 48rem) {
+    
 }
