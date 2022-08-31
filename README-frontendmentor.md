@@ -29,7 +29,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/Craithez/3-column-preview-card-component)
 - Live Site URL: [Live Site](https://craithez.github.io/3-column-preview-card-component/)
 
 ### Built with
